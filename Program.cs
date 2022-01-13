@@ -16,7 +16,8 @@ namespace DisableFadein
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+            var form = new FormMain();
+            Application.Run();
         }
     }
 }

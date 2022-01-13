@@ -29,7 +29,7 @@ namespace DisableFadein
             InitializeComponent();
             player = new SoundPlayer(silentAudioStream);
 
-            this.Load += (_, __) => StartPlaying();
+            StartPlaying();
         }
 
         private void StartMenu_Clicked(object sender, EventArgs e) => StartPlaying();

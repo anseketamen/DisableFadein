@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Custom
+DisableFadein_icon.pptx
+
 # User-specific files
 *.rsuser
 *.suo
